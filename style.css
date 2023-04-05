@@ -1,0 +1,437 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    min-height: 100vh;
+    font-family: 'Epilogue', sans-serif;
+    background-color: #F2F2F2;
+}
+
+.main {
+    background: linear-gradient(to bottom,
+            #FAF8F6 0%,
+            #FAF8F6 75%,
+            #F3EDE7 75%,
+            #F3EDE7 100%);
+    padding: 24px 16px 80px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.upbutton {
+    width: 182px;
+    height: 48px;
+    border: 1px solid #172339;
+    border-radius: 6px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: -0.14px;
+    color: #172339;
+}
+
+.upbutton:hover {
+    cursor: pointer;
+    background: #172339;
+    color: #FAF8F6;
+}
+
+.upcont {
+    margin-top: 56px;
+    flex-direction: column
+}
+
+.upcurved {
+    width: 152px;
+    margin-left: 165px;
+}
+
+.smalltext {
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 44px;
+}
+
+.biggertext {
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 44px;
+}
+
+.upperp {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    margin-top: 32px;
+}
+
+.midbutton {
+    width: 256px;
+    height: 61px;
+    background: #172339;
+    border-radius: 6px;
+    border: none;
+    margin-top: 32px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    color: #FAF8F6;
+}
+
+.midbutton:hover {
+    cursor: pointer;
+    background: linear-gradient(135deg, #A060FF 0%, #CB30E3 49.21%, #FFA84E 100%);
+}
+
+.imgmobile {
+    margin-top: 56px;
+}
+
+.digits {
+    margin-top: 56px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 32px;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+}
+
+h4 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 2.5px;
+
+}
+
+.imgcont {
+
+    background-color: #172339;
+    border-radius: 15px;
+    margin-left: -16px;
+    margin-right: -16px;
+    margin-top: 265px;
+
+
+}
+
+.jeremylarge {
+    display: none;
+}
+
+.jeremymobile {
+    margin-left: 80px;
+    margin-top: -180px;
+}
+
+.ovalwhite {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.downtext {
+    padding: 0 16px 64px;
+    margin-top: 37px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.just {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FAF8F6;
+}
+
+.works {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FAF8F6;
+}
+
+.downp {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #F3EDE7;
+    text-align: center;
+    margin-top: 40px;
+}
+
+h5 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    color: #FAF8F6;
+    margin-top: 40px;
+}
+
+h6 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #F3EDE7;
+}
+
+.lastcont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 56px;
+}
+
+.copy {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 32px;
+    color: #49566D;
+    margin-top: 33px;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    margin-top: 36px;
+
+}
+
+.fb {
+    margin-right: 28px;
+}
+
+.fb:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.tw:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.ig {
+    margin-left: 28px;
+}
+
+.ig:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+@media (min-width: 768px) {
+
+
+    .main {
+        padding: 40px 40px 72px;
+        background: linear-gradient(to bottom,
+                #FAF8F6 0%,
+                #FAF8F6 75%,
+                #F3EDE7 75%,
+                #F3EDE7 100%);
+    }
+
+    .upcont {
+        background-image: url(./images/image-hero-portrait.png);
+        background-repeat: no-repeat;
+        background-size: 281px;
+        background-position: top left 407px;
+    }
+
+    .imgmobile {
+        display: none;
+    }
+
+    .upbutton {
+        width: 219px;
+        height: 56px;
+        font-size: 16px;
+        line-height: 32px;
+    }
+
+    .upcurved {
+        width: 232px;
+        margin-left: 222px;
+        margin-top: 46px;
+    }
+
+    .smalltext {
+        font-size: 56px;
+        line-height: 64px;
+    }
+
+    .biggertext {
+        font-size: 56px;
+        line-height: 64px;
+    }
+
+    .upperp {
+        width: 350px;
+        margin-top: 40px;
+    }
+
+    .midbutton {
+        margin-top: 40px;
+
+    }
+
+    .digits {
+        margin-top: 128px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around
+    }
+
+    .imgcont {
+        margin-top: 273px;
+        margin-left: 16px;
+        margin-right: 16px;
+        background-image: url(./images/pattern-blur.svg);
+        background-repeat: no-repeat;
+        background-size: 300px;
+        background-position: top;
+    }
+
+    .jeremymobile {
+        margin-left: 216px;
+    }
+
+    .downtext {
+        padding: 0 58px 64px;
+    }
+
+    .lastcont {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .copy {
+        margin-top: 0;
+    }
+
+    .icons {
+        margin-top: 0;
+        margin-right: -40px;
+    }
+
+    .logodown {
+        margin-left: -40px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .main {
+        padding: 50px 165px 72px;
+    }
+
+    .upcont {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-size: 350px;
+        height: 600px;
+        background-position: top left 485px;
+    }
+
+    .midbutton {
+        margin-top: 55px;
+    }
+
+    .upcurved {
+        width: 287px;
+        margin-left: 300px;
+    }
+
+    .smalltext {
+        font-size: 72px;
+        line-height: 78px;
+    }
+
+    .biggertext {
+        font-size: 72px;
+        line-height: 78px;
+    }
+
+    .upperp {
+        font-size: 18px;
+        line-height: 32px;
+    }
+
+    .digits {
+        display: flex;
+        flex-direction: column;
+        margin-top: 0;
+        margin-right: 80px;
+
+    }
+
+    .imgcont {
+        margin-top: 291px;
+    }
+
+    .imgcont {
+        display: flex;
+        flex-direction: row;
+        background-size: 500px;
+        background-position: left 50px bottom;
+
+
+    }
+
+    .jeremymobile {
+        display: none;
+    }
+
+    .jeremylarge {
+        display: block;
+        width: 375px;
+        margin-left: 112px;
+        margin-top: -50px;
+    }
+
+    .ovalwhite {
+        display: block;
+        margin-left: 30px;
+        margin-top: 170px;
+    }
+
+    .downtext {
+        align-items: start;
+        margin-right: 60px;
+    }
+
+    .downp {
+        text-align: start;
+    }
+
+    .icons {
+        margin-right: -130px;
+    }
+
+    .logodown {
+        margin-left: -130px;
+    }
+
+}
